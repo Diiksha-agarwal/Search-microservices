@@ -11,6 +11,7 @@ import java.util.List;
 @SolrDocument(collection = "Product")
 public class Product {
     @Id
+    @Field
     private String pId;
     @Field
     private String pName;
